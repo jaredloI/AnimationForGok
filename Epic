@@ -1,20 +1,12 @@
-repeat wait() until game:IsLoaded()
-GokID = {
-    3089437768,
-    1019594003,
-}
-
-if table.find(GokID, game.Players.LocalPlayer.UserId) then
-  local Animate = game.Players.LocalPlayer.Character.Animate
-  Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=782841498"
-  Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=782845736"
-  Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616163682"
-  Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=707897309"
-  Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=656117878"
-  Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=656114359" 
-  Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=707829716"
-  game.Players.LocalPlayer.Character.Humanoid.Jump = true 
-end
+local Animate = game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=782841498"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=782845736"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616163682"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=707897309"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=656117878"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=656114359" 
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=707829716"
+game.Players.LocalPlayer.Character.Humanoid.Jump = true 
 
         local webhookcheck =
    is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
